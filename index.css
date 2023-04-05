@@ -1,0 +1,74 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: arial;
+}
+
+header {
+    background-color: red;
+    color: black;
+    height: 20px;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    font-family: Arial;
+}
+
+main {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#btt {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#botao {
+    background-color: red;
+    color: white;
+    border: 3px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+
+#div1 {
+    width: 100%;
+    height: 20vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+
+#paragrafo {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    width: 50%;
+    height: 250px;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+#rodape {
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+#lista {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-size: larger;
+    align-content: baseline;
+}
